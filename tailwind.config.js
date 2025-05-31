@@ -8,7 +8,11 @@ export default {
     "./app.vue",
   ],
   theme: {
-    extend: {}
+    extend: {
+      textColor: {
+        DEFAULT: '#374151', // gray-700 par défaut pour tous les textes
+      }
+    }
   },
   plugins: [],
 }

@@ -2,7 +2,7 @@
   <section class="py-16 bg-gray-50 overflow-hidden">
     <div class="container mx-auto px-4">
       <div class="flex justify-between items-center mb-12">
-        <h2 class="text-3xl font-bold">Ce qu'en disent nos étudiants</h2>
+        <h2 class="text-3xl font-bold text-gray-800">Ce qu'en disent nos étudiants</h2>
         <div class="flex space-x-3">
           <button 
             @click="scrollToLeft" 
@@ -56,11 +56,11 @@
                 class="w-12 h-12 rounded-full mr-4"
               />
               <div>
-                <h4 class="font-semibold">{{ review.name }}, {{ review.age }} ans</h4>
+                <h4 class="font-semibold text-gray-800">{{ review.name }}, {{ review.age }} ans</h4>
                 <p class="text-gray-500">{{ review.status }}</p>
               </div>
             </div>
-            <p class="text-gray-600 italic min-h-[100px]">
+            <p class="text-gray-700 italic min-h-[100px]">
               "{{ review.text }}"
             </p>
             <div class="mt-4 text-yellow-400 flex">
