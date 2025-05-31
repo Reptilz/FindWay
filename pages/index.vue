@@ -66,7 +66,7 @@
             </div>
             <h3 class="text-xl font-semibold mb-3">3. Explorez vos options</h3>
             <p class="text-gray-600">
-              Consultez les détails des formations recommandées, écoutez des témoignages et prenez une décision éclairée.
+              Consultez les détails des formations et métiers recommandés pour prendre une décision éclairée.
             </p>
           </div>
         </div>
@@ -91,12 +91,12 @@
           </div>
           <div class="flex">
             <div class="mr-4 text-indigo-600">
-              <Icon name="heroicons:users" class="w-6 h-6" />
+              <Icon name="heroicons:light-bulb" class="w-6 h-6" />
             </div>
             <div>
-              <h3 class="text-xl font-semibold mb-2">Témoignages authentiques</h3>
+              <h3 class="text-xl font-semibold mb-2">Découverte de vos potentiels</h3>
               <p class="text-gray-600">
-                Écoutez des étudiants et professionnels partager leur expérience dans différentes filières.
+                Identifiez vos forces cachées et explorez des voies professionnelles auxquelles vous n'auriez pas pensé.
               </p>
             </div>
           </div>
@@ -126,83 +126,8 @@
       </div>
     </section>
 
-    <!-- Témoignages -->
-    <section class="py-16 bg-gray-50">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-12">Ce qu'en disent nos utilisateurs</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <div class="flex items-center mb-4">
-              <img
-                src="https://placehold.co/100/indigo/white?text=A"
-                alt="Avatar"
-                class="w-12 h-12 rounded-full mr-4"
-              />
-              <div>
-                <h4 class="font-semibold">Laura, 18 ans</h4>
-                <p class="text-gray-500">Étudiante en médecine</p>
-              </div>
-            </div>
-            <p class="text-gray-600 italic">
-              "Grâce à FindWay, j'ai confirmé ma passion pour la médecine et découvert des spécialités auxquelles je n'aurais jamais pensé. Le quiz a vraiment cerné ma personnalité !"
-            </p>
-            <div class="mt-4 text-yellow-400 flex">
-              <Icon name="heroicons:star-solid" class="w-5 h-5" />
-              <Icon name="heroicons:star-solid" class="w-5 h-5" />
-              <Icon name="heroicons:star-solid" class="w-5 h-5" />
-              <Icon name="heroicons:star-solid" class="w-5 h-5" />
-              <Icon name="heroicons:star-solid" class="w-5 h-5" />
-            </div>
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <div class="flex items-center mb-4">
-              <img
-                src="https://placehold.co/100/indigo/white?text=T"
-                alt="Avatar"
-                class="w-12 h-12 rounded-full mr-4"
-              />
-              <div>
-                <h4 class="font-semibold">Thomas, 20 ans</h4>
-                <p class="text-gray-500">Étudiant en informatique</p>
-              </div>
-            </div>
-            <p class="text-gray-600 italic">
-              "J'étais complètement perdu après le bac. FindWay m'a aidé à comprendre que mes compétences en résolution de problèmes étaient parfaites pour le développement web."
-            </p>
-            <div class="mt-4 text-yellow-400 flex">
-              <Icon name="heroicons:star-solid" class="w-5 h-5" />
-              <Icon name="heroicons:star-solid" class="w-5 h-5" />
-              <Icon name="heroicons:star-solid" class="w-5 h-5" />
-              <Icon name="heroicons:star-solid" class="w-5 h-5" />
-              <Icon name="heroicons:star" class="w-5 h-5" />
-            </div>
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <div class="flex items-center mb-4">
-              <img
-                src="https://placehold.co/100/indigo/white?text=S"
-                alt="Avatar"
-                class="w-12 h-12 rounded-full mr-4"
-              />
-              <div>
-                <h4 class="font-semibold">Sofia, 17 ans</h4>
-                <p class="text-gray-500">Lycéenne en terminale</p>
-              </div>
-            </div>
-            <p class="text-gray-600 italic">
-              "Les témoignages vidéo m'ont beaucoup aidée à me projeter dans différentes filières. Ça change des brochures ennuyeuses des salons d'orientation !"
-            </p>
-            <div class="mt-4 text-yellow-400 flex">
-              <Icon name="heroicons:star-solid" class="w-5 h-5" />
-              <Icon name="heroicons:star-solid" class="w-5 h-5" />
-              <Icon name="heroicons:star-solid" class="w-5 h-5" />
-              <Icon name="heroicons:star-solid" class="w-5 h-5" />
-              <Icon name="heroicons:star-solid" class="w-5 h-5" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Avis des étudiants -->
+    <StudentReviews />
 
     <!-- Call-to-action -->
     <section class="py-16 bg-indigo-600 text-white">
