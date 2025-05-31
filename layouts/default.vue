@@ -33,11 +33,7 @@
                 Métiers
               </NuxtLink>
             </li>
-            <li>
-              <NuxtLink to="/temoignages" class="text-gray-700 hover:text-indigo-600">
-                Témoignages
-              </NuxtLink>
-            </li>
+
           </ul>
 
           <!-- Boutons de connexion/inscription -->
@@ -82,11 +78,7 @@
                 Métiers
               </NuxtLink>
             </li>
-            <li>
-              <NuxtLink to="/temoignages" class="block text-gray-700 hover:text-indigo-600">
-                Témoignages
-              </NuxtLink>
-            </li>
+
             <li class="pt-4 border-t border-gray-200">
               <NuxtLink to="/login" class="block text-gray-700 hover:text-indigo-600">
                 Connexion
